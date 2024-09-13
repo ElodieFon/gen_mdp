@@ -44,10 +44,10 @@ function generatePassword(event) {
     }
 
     // Ajouter un caractère spécial aléatoire
-    motDePasse += getRandomElement(caracteresSpeciaux);
+    // motDePasse += getRandomElement(caracteresSpeciaux);
 
-    // Ajouter 6 chiffres aléatoires
-    for (let i = 0; i < 6; i++) {
+    // Ajouter 4 chiffres aléatoires
+    for (let i = 0; i < 4; i++) {
         motDePasse += getRandomElement(chiffres);
     }
 
